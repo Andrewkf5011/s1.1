@@ -1,15 +1,14 @@
 #include <mbed.h>
+#include "LED.h"
+#include "K64fBoard.h"
 
-class LED {
-  DigitalOut pin;
-public:
-  LED(PinName p) : pin(p,1) {}
-  void  on(void) { pin.write(0);}
-  void off(void) { pin.write(1);}
+K64fBoard board;
+
+LED light[] = {
+  LED(board.getRED_LED),
+  LED(board.getBLUE_LED),
+  LED(board.getGREEN_LED)
 };
-LED light[] = { LED(PTB22), LED(PTE26), LED(PTB21) };
-enum { Red, Green, Blue};
-
 
 int main() {
 
