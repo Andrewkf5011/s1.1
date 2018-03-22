@@ -9,8 +9,8 @@ class LED
 
   public:
     LED(PinName p);
-    void on(void);
-    void off(void);
+    void on();
+    void off();
 };
 
 #endif // LED_H

@@ -5,12 +5,12 @@ LED::LED(PinName p) : pin(p,1)
 {
 }
 
-void LED::on(void)
+void LED::on()
 {
   pin.write(0);
 }
 
-void LED::off(void)
+void LED::off()
 {
   pin.write(1);
 }

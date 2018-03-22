@@ -5,9 +5,9 @@
 K64fBoard board;
 
 LED light[] = {
-  LED(board.getRED_LED),
-  LED(board.getBLUE_LED),
-  LED(board.getGREEN_LED)
+  LED(board.getRedLED()),
+  LED(board.getGreenLED()),
+  LED(board.getBlueLED())
 };
 
 int main() {

@@ -1,9 +1,17 @@
 #include "K64fBoard.h"
 #include <mbed.h>
 
-K64fBoard::K64fBoard()
+PinName K64fBoard::getRedLED()
 {
-  RED_LED = PTB22;
-  GREEN_LED = PTB22;
-  BLUE_LED = PTB22;
+  return PTB22;
+}
+
+PinName K64fBoard::getGreenLED()
+{
+  return PTE26;
+}
+
+PinName K64fBoard::getBlueLED()
+{
+  return PTB21;
 }
