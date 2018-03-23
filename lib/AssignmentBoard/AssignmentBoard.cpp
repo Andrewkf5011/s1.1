@@ -18,3 +18,8 @@ const PinName AssignmentBoard::SHIELD_RED_LED = D5;
 const PinName AssignmentBoard::SHIELD_GREEN_LED = D9;
 const PinName AssignmentBoard::SHIELD_BLUE_LED = D8;
 //Switches
+const PinName AssignmentBoard::SHIELD_SW_CENTER = D4;
+const PinName AssignmentBoard::SHIELD_SW_UP = A2;
+const PinName AssignmentBoard::SHIELD_SW_DOWN = A3;
+const PinName AssignmentBoard::SHIELD_SW_LEFT = A4;
+const PinName AssignmentBoard::SHIELD_SW_RIGHT = A5;

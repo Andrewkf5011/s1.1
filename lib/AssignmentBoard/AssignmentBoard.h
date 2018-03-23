@@ -11,7 +11,6 @@ class AssignmentBoard
     static const PinName K64F_RED_LED;
     static const PinName K64F_GREEN_LED;
     static const PinName K64F_BLUE_LED;
-
     //Switches
     static const PinName K64F_SW2;
     static const PinName K64F_SW3;
@@ -22,8 +21,12 @@ class AssignmentBoard
     static const PinName SHIELD_RED_LED;
     static const PinName SHIELD_GREEN_LED;
     static const PinName SHIELD_BLUE_LED;
-
     //Switches
+    static const PinName SHIELD_SW_CENTER;
+    static const PinName SHIELD_SW_UP;
+    static const PinName SHIELD_SW_DOWN;
+    static const PinName SHIELD_SW_LEFT;
+    static const PinName SHIELD_SW_RIGHT;
 
 };
 
